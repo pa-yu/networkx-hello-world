@@ -2,7 +2,7 @@
   "name": "NetworkX CMU Campus Project",
   // Use the Dockerfile instead of pre-built image
   "build": {
-    "dockerfile": "Dockerfile",
+    "dockerfile": "../Dockerfile",
     "context": ".." // Build context is project root (parent directory)
   },
   // Features to add to the dev container
